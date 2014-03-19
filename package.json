@@ -1,0 +1,35 @@
+{
+  "name": "thunkagent",
+  "version": "1.0.0",
+  "description": "Yieldable SuperAgent with a thunk() method",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --harmony --reporter spec test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seznam/thunkagent.git"
+  },
+  "keywords": [
+    "co",
+    "thunk",
+    "async",
+    "generator",
+    "http",
+    "ajax",
+    "request",
+    "agent"
+  ],
+  "author": "Seznam.cz, a.s.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seznam/thunkagent/issues"
+  },
+  "homepage": "https://github.com/seznam/thunkagent",
+  "dependencies": {
+    "superagent": "^0.17.0"
+  },
+  "devDependencies": {
+    "co": "^3.0.5"
+  }
+}
