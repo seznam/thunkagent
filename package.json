@@ -34,6 +34,7 @@
     "superagent": "^0.17.0"
   },
   "devDependencies": {
-    "co": "^3.0.5"
+    "co": "^3.0.5",
+    "mocha": "^1.18.2"
   }
 }

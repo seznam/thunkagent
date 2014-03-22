@@ -1,11 +1,11 @@
-thunkagent
-==========
+# thunkagent
+[![Build Status](https://travis-ci.org/seznam/thunkagent.svg?branch=master)](https://travis-ci.org/seznam/thunkagent)
 
 Yieldable [SuperAgent](https://github.com/visionmedia/superagent) with a thunk() method.
 
 _This module is a workaround for SuperAgent's issue [#230](https://github.com/visionmedia/superagent/issues/230)_.
 
-## Install
+## Installation
 
 ```sh
 $ npm install thunkagent --save
