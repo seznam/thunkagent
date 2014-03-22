@@ -1,6 +1,6 @@
 {
   "name": "thunkagent",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Yieldable SuperAgent with a thunk() method",
   "main": "index.js",
   "scripts": {
