@@ -20,7 +20,11 @@
     "request",
     "agent"
   ],
-  "author": "Seznam.cz, a.s.",
+  "author": {
+    "name": "Juraj Hájovský",
+    "email": "juraj@hajovsky.sk",
+    "url": "http://hajovsky.sk"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/seznam/thunkagent/issues"
