@@ -13,6 +13,6 @@ describe('thunkagent thunk()', function() {
 
         assert.equal(res.status, 200);
         assert.equal(res.body.headers['User-Agent'], ua);
-        assert.equal(res.body.json['lorem'], 'ipsum');
+        assert.equal(res.body.json.lorem, 'ipsum');
     }));
 });

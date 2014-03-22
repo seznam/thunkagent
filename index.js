@@ -5,8 +5,8 @@ request.Request.prototype.thunk = function() {
     return function(fn) {
         self.end(function(err, res) {
             fn(err, res);
-        })
-    }
+        });
+    };
 };
 
 module.exports = request;
