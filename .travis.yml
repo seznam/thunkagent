@@ -1,3 +1,11 @@
 language: node_js
 node_js:
-  - "0.11"
+  - '0.11'
+deploy:
+  provider: npm
+  email: juraj@hajovsky.sk
+  api_key:
+    secure: Uy7ebQdZ/RL0XDbVbwrx/hhopDnoy9cDdRRvKp/Q8j1xYaKp7kvFAtZNcJcbCPq1Fipu2gwX9BFq/uB6A0Ib67grdICDT0xneVo07p9RcToKQEgFecXjt9IYWy28m8dnJnp+wRVhwgeoIM+YEEiIbmcvv7q8aaKIX8FmQ3NwtZ4=
+  on:
+    tags: true
+    repo: seznam/thunkagent
