@@ -31,10 +31,11 @@
   },
   "homepage": "https://github.com/seznam/thunkagent",
   "dependencies": {
-    "superagent": "^0.17.0"
+    "superagent": "^0.18.2"
   },
   "devDependencies": {
     "co": "^3.0.5",
+    "express": "^4.6.1",
     "mocha": "^1.18.2"
   }
 }

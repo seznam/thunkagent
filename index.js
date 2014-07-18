@@ -9,4 +9,15 @@ request.Request.prototype.thunk = function() {
     };
 };
 
+request.parse.image = function(res, fn) {
+    var data = '';
+    res.setEncoding('binary');
+    res.on('data', function(chunk){
+        data += chunk;
+    });
+    res.on('end', function () {
+        fn(null, data);
+    });
+};
+
 module.exports = request;
